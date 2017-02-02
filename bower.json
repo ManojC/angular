@@ -1,0 +1,25 @@
+{
+  "name": "angular",
+  "homepage": "https://github.com/ManojC/angular",
+  "authors": [
+    "Manoj Chalode <chalodem@gmail.com>"
+  ],
+  "description": "angular tutorials",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "javascript",
+    "directives"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}

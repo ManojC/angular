@@ -4,8 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Angular</title>
 </head>
-<body>
+<body ng-app="angular-demo">
 	<h1>Angular Tutorials</h1>
+	<div ng-controller="MainController">
+		<div name-directive data-address="name"></div>
+		<name-directive data-address="address"></name-directive>		
+	</div>
 </body>
+<script src="bower_components/angular/angular.min.js"></script>
 <script src="index.js"></script>
 </html>
